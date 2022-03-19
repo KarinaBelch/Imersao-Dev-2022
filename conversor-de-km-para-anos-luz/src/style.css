@@ -1,0 +1,66 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://cdn.pixabay.com/photo/2016/09/08/09/23/milky-way-1653689_960_720.jpg");
+  background-color: #000000;
+  background-size: 150vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 10 0 5px;
+  text-shadow: 0.08em 0.08em black;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+  font-weight: bold;
+  text-shadow: 0.08em 0.08em black;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+label {
+  color: white;
+  text-shadow: 0.08em 0.08em black;
+}
+
+button {
+  margin-top: 10px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 30px;
+  text-shadow: 0.06em 0.06em black;
+}
+
+
+
