@@ -1,0 +1,94 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://st.depositphotos.com/1260672/3115/i/600/depositphotos_31154329-stock-photo-red-background-in-show.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 200px;
+}
+
+h1 {
+  font-weight: bold;
+  text-shadow: 0.05em 0.05em black;
+}
+
+h2 {
+  font-size: xx-large;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0.07em 0.07em black;
+}
+
+button {
+  background-color: #d72323;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+  text-shadow: 0.05em 0.05em black;
+}
+
+input {
+  padding: 16px 0px;
+  background-color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.capas {
+  max-height: 250px;
+  margin: 20px;
+  box-shadow: 5px 5px 50px black;
+  transition: transform 0.3s;
+}
+
+.capas:hover {
+  transition: transform 0.3s;
+  -ms-transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+}
+
+p {
+  color: white;
+}
